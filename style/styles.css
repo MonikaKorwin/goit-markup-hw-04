@@ -329,11 +329,13 @@ margin-bottom:50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* text-decoration: none;
+  font-style: none; */
   
 }
 .team-member{
 
-background: #000000;
+background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 
@@ -380,21 +382,49 @@ margin-bottom:30px;
 .social-icon{
   width: 20px;
   height: 20px;
-  fill: #AFB1B8;
-}
-.team-member-social-list{
-    display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
+  fill:#AFB1B8
   
 }
- .team-member-social-list-link{
-  display: block;
+.team-member-social-list-link{
+  display: flex; 
   width: 44px;
   height: 44px;
   background-color: #FFFFFF;
-  border-radius: 50%; 
+  border-radius: 50%;   
+  justify-content: center;
+  align-items: center;
+  
+  
+ }
+.team-member-social-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 206px;
+  height: 56px;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 18px;
+  
+  
+   
+}
+.social-icon:hover,
+.social-icon:focus{
+  fill: #FFFFFF;
+}
+.team-member-social-list-link:hover,
+.team-member-social-list-link:focus{
+background-color: var(--main-color)
+}
+ 
+/* .team-member-social-list-item,
+{
+  text-decoration: none;
+  font-style: none; */
+}
+
 
 
 }
@@ -407,7 +437,7 @@ margin-bottom:30px;
 position: absolute;
 width: 1600px;
 height: 252px;
-top: 2097px;
+top: 26790px;
 background: #2F303A;
 margin:0 auto;
 /* margin-left: 215px; */
