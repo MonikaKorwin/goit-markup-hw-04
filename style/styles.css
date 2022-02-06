@@ -87,6 +87,9 @@ top: 32px;
   top: 32px;
   }
 
+
+
+
 .navigation-link,
 .address-logo,
 .navigation-list-item-portfolio {
@@ -432,15 +435,24 @@ background-color: var(--main-color)
 /* =============/MAIN INDEX.HTML============ */
 
 /* =============FOOTER INDEX.HTML============ */
+.container-adress{
+  position: absolute;
+width: 1600px;
+height: 252px;
+background: #2F303A;
+margin:0 auto;
+margin-left: 215px;
+}
+
 
 .address {
 position: absolute;
 width: 1600px;
 height: 252px;
-top: 26790px;
+top: 2679px;
 background: #2F303A;
 margin:0 auto;
-/* margin-left: 215px; */
+margin-left: 215px;
 }
 
 .adress-portfolio{
