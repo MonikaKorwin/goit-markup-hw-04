@@ -435,42 +435,43 @@ background-color: var(--main-color)
 <!-- our-clients --> 
 .our-clients-tittle{
 display: block;
-position: absolute;  */
-height: 42px;
-top: 2401px;
-
-font-family: var(--main-font);
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1,167;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-margin: 0 auto;
 } 
 
 
 .our-clients-icon{
 width: 106px;
 height: 60px;
-fill:#AFB1B8;  */
+fill:#AFB1B8;  
 
 }
 
 .our-clients-list{
   display: flex;
   list-style: none;
-  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
-  } */
-/* .container-our-clients{
+  margin: 0 auto;
+  padding-top:50px;
+  } 
+.container-our-clients{
   position: absolute;
 height: 184px;
 top: 2401px;
 margin:o auto; 
-} */
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin: 0 auto;
+}
+.our-clients-icon:not(:last-child){
+  margin-right: 30px;
+
+} 
 /* .our-clients-link{
   display: flex; 
   width: 170px;
