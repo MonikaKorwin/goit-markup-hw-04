@@ -385,7 +385,7 @@ margin-bottom:30px;
 .social-icon{
   width: 20px;
   height: 20px;
-  fill:#AFB1B8
+  fill:#AFB1B8;
   
 }
 .team-member-social-list-link{
@@ -428,20 +428,72 @@ background-color: var(--main-color)
   font-style: none; */
 }
 
+/* <!-- end-the-our-team --> */
 
+
+
+<!-- our-clients --> 
+.our-clients-tittle{
+display: block;
+position: absolute;  */
+height: 42px;
+top: 2401px;
+
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1,167;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin: 0 auto;
+} 
+
+
+.our-clients-icon{
+width: 106px;
+height: 60px;
+fill:#AFB1B8;  */
 
 }
-/* <!-- end-the-our-team --> */
+
+.our-clients-list{
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  } */
+/* .container-our-clients{
+  position: absolute;
+height: 184px;
+top: 2401px;
+margin:o auto; 
+} */
+/* .our-clients-link{
+  display: flex; 
+  width: 170px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;   
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+/* <!-- and-our-clients --> */
+
 /* =============/MAIN INDEX.HTML============ */
 
 /* =============FOOTER INDEX.HTML============ */
 .container-adress{
   position: absolute;
-width: 1600px;
 height: 252px;
 background: #2F303A;
 margin:0 auto;
-margin-left: 215px;
+
 }
 
 
