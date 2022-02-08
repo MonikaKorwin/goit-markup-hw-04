@@ -518,22 +518,9 @@ background-color: var(--main-color)
 
 /*<!-- our-clients --> */
 
-
-align-items: center;
-font-family: var(--main-font); 
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 1.1667;
-text-align: center;
-letter-spacing: 0.03em;
-
 .our-clients-tittle{
 display: block;
-margin: 0 auto;
-
-
-} 
+margin: 0 auto;} 
 
 
 .our-clients-icon{
@@ -548,10 +535,10 @@ fill:#AFB1B8;
   justify-content: space-between;
   margin: 0 auto;
   padding-top:50px;
+  padding-bottom: 94px;;
   } 
 .container-our-clients{
 height: 184px;
-top: 2401px;
 margin:o auto; 
 align-items: center;
 font-family: var(--main-font);
@@ -593,7 +580,11 @@ margin-rigt:30px;
 border-color: var(--main-color);
 }
 
-
+.our-clients-icon-company{
+margin: 0 auto;
+align-items: center;
+background-position: center;
+}
 /* <!-- and-our-clients --> */
 
 /* =============/MAIN INDEX.HTML============ */
@@ -604,22 +595,27 @@ border-color: var(--main-color);
 height: 252px;
 background: #2F303A;
 margin:0 auto;
-
 }
 
 
 .address {
-position: absolute;
-width: 1600px;
 height: 252px;
-top: 2679px;
 background: #2F303A;
 margin:0 auto;
-margin-left: 215px;
+margin-top:94px;
 }
 
 .adress-portfolio{
-top: 1628px;
+height: 252px;
+background: #2F303A;
+margin:0 auto;
+margin-left: 215px;
+margin-top:94px;
+}
+.footer-address{
+position: absolute;
+left: 215px;
+ 
 }
 
 
@@ -659,10 +655,12 @@ font:none;
   line-height: 1.192;
   /* identical to box height */
   letter-spacing: 0.03em;
-      color: #FFFFFF;
-  
+  color: #FFFFFF;
+}
+.join-to-us-list-item{
+  list-style: none;
+}
 
-}  
 .adress-street{
 color: #FFFFFF; 
 font-size: 14px;
@@ -746,7 +744,7 @@ color: #FFFFFF;
 .join-to-us-list-portfolio{
   display: flex;
   list-style: none;
-  position: absolute;
+  
 width: 206px;
 height: 44px;
 left: 531px;
@@ -784,11 +782,16 @@ background-color: var(--main-color)
 
 
 /* =============FILTER============ */
+
+.filter{
+  margin: 0 auto;
+  align-items: center;
+}
+.filers-examples{}
 .filter-list-items{
   display: flex;
   list-style:none; 
   text-decoration: none;
-  position: absolute;
 width: 572px;
 height: 54px;
 left: 510px;
