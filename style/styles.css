@@ -254,7 +254,8 @@ top:280px;
   padding: 0 15px;
   align-items: center;
   margin: 0 auto;
-  margin-top: 94px;
+  margin-top: 94px; 
+  margin-bottom: 30px;
 
 }
 
@@ -271,6 +272,7 @@ height: 120px;
   border-width::4px;   
   justify-content: center;
   align-items: center;
+  
   
 }
 
@@ -327,6 +329,7 @@ margin-top: 10px;
   align-items: center;
   margin: 0 auto;
   justify-content: center;
+  margin-bottom:94px;
   
    
    
@@ -387,7 +390,7 @@ margin-right:30px;
 .team {
 height: 708px;
 /* left: 0px; */
-top: 1449px;
+
 background: #F5F4FA;
 margin: 0 auto;
 text-decoration: none;
@@ -399,6 +402,7 @@ margin-bottom:94px;
 }
 
 .team-tittle{
+
 font-family: var(--main-font);
 font-style: normal;
 font-weight: bold;
@@ -407,9 +411,9 @@ line-height: 1.667;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
-margin-top:94px;
-margin-bottom:50px;
+padding-bottom:50px;
 padding-top: 94px;
+
 }
 
 .team-member-all{
@@ -425,6 +429,7 @@ padding-top: 94px;
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+margin-bottom: 94px;
 
 
 }
@@ -590,15 +595,9 @@ background-position: center;
 /* =============/MAIN INDEX.HTML============ */
 
 /* =============FOOTER INDEX.HTML============ */
-.container-adress{
-  position: absolute;
-height: 252px;
-background: #2F303A;
-margin:0 auto;
-}
 
 
-.address {
+.footer {
 height: 252px;
 background: #2F303A;
 margin:0 auto;
@@ -613,11 +612,18 @@ margin-left: 215px;
 margin-top:94px;
 }
 .footer-address{
-position: absolute;
-left: 215px;
+  display: block;
+padding-top: 60px;
+width: 246px;
  
 }
+.container-footer{
+  width: 1200px;
+  height: 252px;
+  align-items: center;
+  margin: 0 auto;
 
+}
 
 .web,
 .studio {
@@ -657,8 +663,14 @@ font:none;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
+
+.join-to-us{
+  display: block;
+  background-color: #757575;
+}
 .join-to-us-list-item{
   list-style: none;
+  
 }
 
 .adress-street{
@@ -712,11 +724,11 @@ margin-left:0px;
 
 .join-to-us-tittle,
 .join-to-us-tittle-portfolio{
-position: absolute;
+
 width: 113px;
 height: 16px;
 left: 531px;
-top: 2751px;
+
 
 font-family: var(--main-font);
 font-style: normal;
@@ -732,13 +744,7 @@ color: #FFFFFF;
 }
 .join-to-us-tittle-portfolio{
   top:1700px;
-  
-
-}
-
-
-
-
+  }
 
 .join-to-us-list
 .join-to-us-list-portfolio{
@@ -752,7 +758,9 @@ justify-content:space-between;
 align-items: center;
 
 }
-
+.join-to-us-list-link{
+  display: flex;
+}
 
 .join-to-us-list-link
 .join-to-us-list-link-portfolio{
