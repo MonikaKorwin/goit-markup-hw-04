@@ -777,6 +777,12 @@ top: 2787px;
 }
 .join-to-us-list-link{
   display: flex;
+   width: 44px;
+  height: 44px;
+    border-radius: 50%;   
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .join-to-us-list-link
