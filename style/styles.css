@@ -750,8 +750,7 @@ margin-left: 316px;
   top:1700px;
   }
 
-.join-to-us-list,
-.join-to-us-list-portfolio{
+.join-to-us-list{
     list-style: none;
   
 width: 206px;
@@ -759,8 +758,19 @@ height: 44px;
 left: 531px;
 justify-content:space-between;
 align-items: center;
-
 }
+.join-to-us-list-portfolio{
+   list-style: none;
+ position: absolute;
+width: 206px;
+height: 44px;
+margin-left: 316px;
+/* top: 2787px;  */
+justify-content:space-between;
+align-items: center;
+top: 2787px;
+}
+
 .join-to-us-list-portfolio{
   display: flex;
   
