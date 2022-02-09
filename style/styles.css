@@ -47,10 +47,6 @@ margin: 0 auto;
 .navigation {
   display: flex;
   align-items: baseline;
-  /* margin-left: -15px; 
-  height: 80px; */
-  /* left: 110px; */
-  /* top: 0px; */
   background: #FFFFFF;
   height: 80px;
 }
@@ -68,7 +64,6 @@ padding-bottom: 25px;
 .navigation-list {
   list-style: none;
   display: flex;
-  /* flex-wrap: beaside; */
   align-items: center;
   padding-top: 24px;
 padding-bottom: 25px;
@@ -611,17 +606,16 @@ margin:0 auto;
 margin-left: 215px;
 margin-top:94px;
 }
-.footer-address{
-  display: block;
-padding-top: 60px;
-width: 246px;
  
-}
+
 .container-footer{
   width: 1200px;
   height: 252px;
   align-items: center;
   margin: 0 auto;
+  position: absolute;
+  left: 0px;
+  
 
 }
 
@@ -639,15 +633,14 @@ width: 246px;
   font-style: normal;
 }
 .address-logo{
-/* margin-top:60px; */
- 
-position: relative;
+position: absolute;
 width: 145px;
 height: 31px;
-left: 0px;
+/* left: 0px; */
 font-style: none;
 text-decoration: none;
 font:none;
+
 
 }
 .studio {
@@ -663,13 +656,19 @@ font:none;
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-
+.footer-address{
+padding-top:60px;
+}
 .join-to-us{
-  display: block;
-  background-color: #757575;
+  display: flex;
+   flex-direction: column;
+   width: 206px;
+  
 }
 .join-to-us-list-item{
   list-style: none;
+  display: flex;
+ 
   
 }
 
@@ -678,7 +677,7 @@ color: #FFFFFF;
 font-size: 14px;
 line-height: 1.714;
 /* or 171% */
-letter-spacing: 0.03em
+letter-spacing: 0.003em
 font-style: normal;
 font-weight: normal;
 font-family: var(--main-font);
@@ -727,7 +726,7 @@ margin-left:0px;
 
 width: 113px;
 height: 16px;
-left: 531px;
+
 
 
 font-family: var(--main-font);
@@ -740,16 +739,20 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 
+position: absolute;
+width: 113px;
+height: 16px;
+top: 2751px;
+margin-left: 316px;
 
 }
 .join-to-us-tittle-portfolio{
   top:1700px;
   }
 
-.join-to-us-list
+.join-to-us-list,
 .join-to-us-list-portfolio{
-  display: flex;
-  list-style: none;
+    list-style: none;
   
 width: 206px;
 height: 44px;
@@ -757,6 +760,10 @@ left: 531px;
 justify-content:space-between;
 align-items: center;
 
+}
+.join-to-us-list-portfolio{
+  display: flex;
+  
 }
 .join-to-us-list-link{
   display: flex;
@@ -768,9 +775,9 @@ align-items: center;
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;   
   justify-content: center;
   align-items: center;
+  border-radius: 50%; 
 }
 
 .join-to-us-list-link:hover,
